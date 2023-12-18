@@ -19,6 +19,8 @@ const observer2 = {
   next: (value) => console.log(value),
 };
 
+console.log("Class 2: subject");
+
 numbersSubject$.subscribe(observer1);
 numbersSubject$.subscribe(observer2);
 numbers$.subscribe(numbersSubject$);

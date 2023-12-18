@@ -18,5 +18,5 @@ const observador = {
     console.error(error);
   },
 };
-
+console.log("Class 1: observable & observer");
 observableAlfa$.subscribe(observador);

@@ -1,5 +1,6 @@
 import { from, of, asyncScheduler } from "rxjs";
 
+console.log("Class 4: Operators", "\n");
 // FROM
 console.log("FROM", "\n");
 const fruitsFrom$ = from(

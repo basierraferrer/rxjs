@@ -1,5 +1,7 @@
 import { map, reduce, filter, from } from "rxjs";
 
+console.log("Class 6: Operators", "\n");
+
 const values = [1, 2, 3, 4, 5, 6, 7, 8];
 
 const map$ = from(values).pipe(
