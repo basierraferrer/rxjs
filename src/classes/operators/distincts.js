@@ -23,7 +23,7 @@ const repeatedNumber$ = of(
   //distinct(),
   //just emit if the current value is different the previus one
   //distinctUntilChanged()
-  //
+  //just emit if the current object is different the previus one
   distinctUntilKeyChanged("k")
 );
 
