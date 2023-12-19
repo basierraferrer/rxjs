@@ -12,5 +12,7 @@
 // import "./classes/operators/map_filter_reduce";
 // // Class 7
 // import "./classes/operators/distincts";
-// Class 8
-import "./classes/operators/times";
+// // Class 8
+// import "./classes/operators/times";
+// Class 9
+import "./classes/operators/merge_mergeAll_mergeMap";
